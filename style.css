@@ -1,0 +1,40 @@
+body{
+    align-items: center;
+}
+
+#tateti{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+}
+
+#jugadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+td{
+    height: 150px;
+    width: 150px;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+input{
+    border: none;
+    text-align: center;
+}
+
+#start{
+    height: 25px;
+    width: 125px;
+    text-align: center;
+}
+
+.ganador{
+    background-color: aqua;
+}
